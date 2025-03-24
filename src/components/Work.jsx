@@ -25,14 +25,14 @@ const Work = () => {
       id: 3,
       img: jewelleryWebsite,
       intro: "Jewellery Website",
-      link: "https://github.com/sanam-rai356/Jewellery-Website-Using-React",
+      link: "https://jewellery-website-using-react.vercel.app/",
     },
 
     {
       id: 4,
       img: realState,
       intro: "Real Website",
-      link: "https://github.com/sanam-rai356/Real-Estate-Website-using-React-JS-Tailwind-css",
+      link: "https://real-estate-website-using-react-js-tailwind-css.vercel.app/",
     },
   ];
   return (
