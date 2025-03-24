@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ovo", serif;
+}
+
+@layer components{
+  .main_padding{
+    @apply px-8 md:px-14 lg:px-24 w-full
+  }
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.outfit-font{
+  font-family: "Outfit", sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
