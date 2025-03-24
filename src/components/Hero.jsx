@@ -1,7 +1,7 @@
 import myProfile from "../assets/me.jpg";
 import { GoArrowRight } from "react-icons/go";
 import { FiDownload } from "react-icons/fi";
-import Resume from "../assets/Sanam-Rai-1.pdf"
+import Resume from "../assets/Sanam-Rai-cv.pdf"
 
 const Hero = () => {
   return (
